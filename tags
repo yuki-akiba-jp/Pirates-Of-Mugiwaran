@@ -12,6 +12,8 @@
 $1000	index.html	/^            <h1>$1000<\/h1>$/;"	h
 $1000	index.html	/^          <h1>$1000<\/h1>$/;"	h
 $1000	index.html	/^          <h2>$1000<\/h2>$/;"	i
+**URL**	README.md	/^## **URL**$/;"	s	chapter:Clicker-Empire-Game
+**how to play this game**	README.md	/^## **how to play this game**$/;"	s	chapter:Clicker-Empire-Game
 .bg-black	style.css	/^.bg-black {$/;"	c
 .bg-gray	style.css	/^.bg-gray {$/;"	c
 .bg-lightblue	style.css	/^.bg-lightblue {$/;"	c
@@ -27,6 +29,7 @@ $1000	index.html	/^          <h2>$1000<\/h2>$/;"	i
 AnonymousClass742e32510101	product.js	/^export class  {$/;"	c
 BankAccount	main.js	/^class BankAccount {$/;"	c
 Charactor	charactor.js	/^export class Charactor {$/;"	c
+Clicker-Empire-Game	README.md	/^# Clicker-Empire-Game$/;"	c
 Controller	main.js	/^class Controller {$/;"	c
 Data	main.js	/^class Data {$/;"	c
 Document	index.html	/^    <title>Document<\/title>$/;"	j
@@ -106,6 +109,7 @@ config	config.js	/^const config = {$/;"	v
 config	config.js	/^export const config = {$/;"	v
 config	main.js	/^const config = {$/;"	v
 constructor	User.js	/^  constructor(name, initialMoney, money) {$/;"	m	class:User
+constructor	User.js	/^  constructor(name, password, balance, spendDays, bonusPerTime, charactors) {$/;"	m	class:User
 constructor	User.js	/^  constructor(username, initialMoney, money) {$/;"	m	class:User
 constructor	charactor.js	/^  constructor(name, bounty, interest, imgUrl) {$/;"	m	class:Charactor
 constructor	charactor.js	/^  constructor(name, bounty, interestPercentage, imgUrl) {$/;"	m	class:Charactor
@@ -195,9 +199,12 @@ getOld	main.js	/^  getOld() {$/;"	m	class:User
 getRandomInteger	main.js	/^function getRandomInteger(min, max) {$/;"	f
 hideAllPage	view.js	/^  static hideAllPage() {$/;"	m	class:View
 hidePage	view.js	/^  static hidePage(page) {$/;"	m	class:View
+increaseBalanceByClick	User.js	/^  increaseBalanceByClick() {$/;"	m	class:User
 increaseBalanceByClick	user.js	/^  increaseBalanceByClick() {$/;"	m	class:User
 increaseBalancePerSec	user.js	/^  increaseBalancePerSec() {$/;"	m	class:User
+increaseBalancePerTime	User.js	/^  increaseBalancePerTime() {$/;"	m	class:User
 increaseBalancePerTime	user.js	/^  increaseBalancePerTime() {$/;"	m	class:User
+increaseSpendDaysPerTime	User.js	/^  increaseSpendDaysPerTime() {$/;"	m	class:User
 increaseSpendDaysPerTime	user.js	/^  increaseSpendDaysPerTime() {$/;"	m	class:User
 initGame	view.js	/^  static initGame() {$/;"	m	class:View
 initGame	view.js	/^  static initGame() {}$/;"	m	class:View
