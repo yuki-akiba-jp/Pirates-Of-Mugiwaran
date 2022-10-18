@@ -43,12 +43,12 @@ export class View {
         <form>
           <div class="mb-3 ">
             <label for="username" class="form-label">username</label>
-            <input type="text" class="form-control inputUsername" name="username" value="aaa" required />
+            <input type="text" class="form-control inputUsername" name="username" value="" required />
             <div id="" class="form-text"></div>
           </div>
           <div class="mb-3 ">
             <label for="password" class="form-label">Password</label>
-            <input type="password" name="password" class="form-control inputPassword" value="aaa"id="password" required />
+            <input type="password" name="password" class="form-control inputPassword" value=""id="password" required />
           </div>
           <div class="buttons mb-3">
             <button type="button" class="btn btn-outline-primary mr-3 loginBtn"> login </button>
@@ -204,7 +204,6 @@ export class View {
           (charactor.bounty * charactorAmount * charactor.interestPercentage) /
             100
         );
-
         charactor.amountOfCrew += charactorAmount;
         charctorsInfo.classList.remove("col-12");
         this.createMainPage(user);
