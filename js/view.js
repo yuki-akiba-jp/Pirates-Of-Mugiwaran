@@ -1,6 +1,6 @@
 import { config, charactors } from "./config.js";
 import { Charactor } from "./charactor.js";
-import { User } from "./User.js";
+import { User } from "./user.js";
 
 export class View {
   static updateUserInfoInMainPageInterval;

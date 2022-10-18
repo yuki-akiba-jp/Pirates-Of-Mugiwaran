@@ -43,6 +43,7 @@ Total Balance	index.html	/^          <h2>Total Balance<\/h2>$/;"	i
 User	User.js	/^export class User {$/;"	c
 User	User.js	/^export default class User {$/;"	c
 User	js/User.js	/^export class User {$/;"	c
+User	js/user.js	/^export class User {$/;"	c
 User	main.js	/^class User {$/;"	c
 User	user.js	/^export class User {$/;"	c
 View	js/view.js	/^export class View {$/;"	c
@@ -128,6 +129,7 @@ constructor	investmentProduct.js	/^  constructor(interest, price) {$/;"	m	class:
 constructor	investmentProduct.js	/^  constructor(name, interest, price) {$/;"	m	class:investmentProduct
 constructor	js/User.js	/^  constructor(name, password, balance, spendDays, bonusPerTime, charactors) {$/;"	m	class:User
 constructor	js/charactor.js	/^  constructor(name, bounty, interestPercentage, imgUrl, amountOfCrew) {$/;"	m	class:Charactor
+constructor	js/user.js	/^  constructor(name, password, balance, spendDays, bonusPerTime, charactors) {$/;"	m	class:User
 constructor	main.js	/^  constructor(firstName, lastName, email, type, accountNumber, money) {$/;"	m	class:BankAccount
 constructor	main.js	/^  constructor(name, type, price, account, maxBuy, imgUrl) {$/;"	m	class:Item
 constructor	main.js	/^  constructor(userName, age, money) {$/;"	m	class:User
@@ -218,13 +220,16 @@ hideAllPage	view.js	/^  static hideAllPage() {$/;"	m	class:View
 hidePage	view.js	/^  static hidePage(page) {$/;"	m	class:View
 increaseBalanceByClick	User.js	/^  increaseBalanceByClick() {$/;"	m	class:User
 increaseBalanceByClick	js/User.js	/^  increaseBalanceByClick() {$/;"	m	class:User
+increaseBalanceByClick	js/user.js	/^  increaseBalanceByClick() {$/;"	m	class:User
 increaseBalanceByClick	user.js	/^  increaseBalanceByClick() {$/;"	m	class:User
 increaseBalancePerSec	user.js	/^  increaseBalancePerSec() {$/;"	m	class:User
 increaseBalancePerTime	User.js	/^  increaseBalancePerTime() {$/;"	m	class:User
 increaseBalancePerTime	js/User.js	/^  increaseBalancePerTime() {$/;"	m	class:User
+increaseBalancePerTime	js/user.js	/^  increaseBalancePerTime() {$/;"	m	class:User
 increaseBalancePerTime	user.js	/^  increaseBalancePerTime() {$/;"	m	class:User
 increaseSpendDaysPerTime	User.js	/^  increaseSpendDaysPerTime() {$/;"	m	class:User
 increaseSpendDaysPerTime	js/User.js	/^  increaseSpendDaysPerTime() {$/;"	m	class:User
+increaseSpendDaysPerTime	js/user.js	/^  increaseSpendDaysPerTime() {$/;"	m	class:User
 increaseSpendDaysPerTime	user.js	/^  increaseSpendDaysPerTime() {$/;"	m	class:User
 initGame	js/view.js	/^  static initGame() {$/;"	m	class:View
 initGame	view.js	/^  static initGame() {$/;"	m	class:View
