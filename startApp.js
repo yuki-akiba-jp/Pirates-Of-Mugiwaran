@@ -1,5 +1,3 @@
-View.initGame();
-
 class User {
   constructor(name, password, balance, spendDays, bonusPerTime, charactors) {
     this.name = name;
@@ -365,3 +363,4 @@ class View {
     this.createLoginPage();
   }
 }
+View.initGame();
