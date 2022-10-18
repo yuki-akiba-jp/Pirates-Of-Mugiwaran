@@ -73,11 +73,15 @@ class View {
   static addSignOutBtnFunc(user) {
     let signOut = document.querySelectorAll(".signout-btn")[0];
     signOut.addEventListener("click", () => {
-      confirm(
+      let isConfirmed = confirm(
         "if you didn't save data, your data is going to be discarded. is it ok?"
       );
-      this.claerUpdateUserInfoInMainPage();
-      this.createLoginPage();
+      if (isConfirmed) {
+        this.claerUpdateUserInfoInMainPage();
+        this.createLoginPage();
+      } else {
+        return;
+      }
     });
   }
 
@@ -287,7 +291,10 @@ class View {
     let inputPassword = document
       .querySelectorAll(".inputPassword")
       .item(0).value;
-    if (inputUsername == "" || inputPassword == "") return;
+    if (inputUsername == "" || inputPassword == "") {
+      alert("username or password is empty");
+      return;
+    }
 
     if (
       JSON.parse(localStorage.getItem(inputUsername)) != null &&
@@ -297,7 +304,6 @@ class View {
       return;
     }
 
-    let initialbalance = 0;
     const user = new User(inputUsername, inputPassword, 0, 0, 0, charactors);
 
     localStorage.setItem(user.name, JSON.stringify(user));
@@ -310,9 +316,12 @@ class View {
       .querySelectorAll(".inputUsername")
       .item(0).value;
 
-    let inputPassword = config.loginPage
+    let inputPassword = document
       .querySelectorAll(".inputPassword")
       .item(0).value;
+
+    console.log(inputUsername);
+    console.log(inputPassword);
 
     let username = JSON.parse(localStorage.getItem(inputUsername))["name"];
     let userPassword = JSON.parse(localStorage.getItem(inputUsername))[
@@ -332,15 +341,20 @@ class View {
     let userCharactorsJson = JSON.parse(localStorage.getItem(inputUsername))[
       "charactors"
     ];
-    for (let userCharactorJson of userCharactorsJson) {
-      const charactor = new Charactor(
-        userCharactorJson["name"],
-        userCharactorJson["bounty"],
-        userCharactorJson["interestPercentage"],
-        userCharactorJson["imgUrl"],
-        userCharactorJson["amountOfCrew"]
-      );
-      userCharactors.push(charactor);
+
+    if (userCharactorsJson != undefined) {
+      for (let userCharactorJson of userCharactorsJson) {
+        const charactor = new Charactor(
+          userCharactorJson["name"],
+          userCharactorJson["bounty"],
+          userCharactorJson["interestPercentage"],
+          userCharactorJson["imgUrl"],
+          userCharactorJson["amountOfCrew"]
+        );
+        userCharactors.push(charactor);
+      }
+    } else {
+      userCharactors = charactors;
     }
 
     const user = new User(
@@ -359,6 +373,7 @@ class View {
       return;
     }
   }
+
   static initGame() {
     this.createLoginPage();
   }
