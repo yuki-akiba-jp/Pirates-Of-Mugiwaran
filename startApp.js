@@ -1,8 +1,69 @@
-import { config, charactors } from "./config.js";
-import { Charactor } from "./charactor.js";
-import { User } from "./user.js";
+View.initGame();
 
-export class View {
+class User {
+  constructor(name, password, balance, spendDays, bonusPerTime, charactors) {
+    this.name = name;
+    this.password = password;
+    this.balance = balance;
+    this.spendDays = spendDays;
+    this.bonusPerTime = bonusPerTime;
+    this.charactors = charactors;
+  }
+  increaseBalanceByClick() {
+    this.balance += 2000;
+  }
+  increaseBalancePerTime() {
+    this.balance += 100;
+    this.balance += this.bonusPerTime;
+  }
+  increaseSpendDaysPerTime() {
+    this.spendDays += 1;
+  }
+}
+
+class Charactor {
+  constructor(name, bounty, interestPercentage, imgUrl, amountOfCrew) {
+    this.name = name;
+    this.bounty = bounty;
+    this.interestPercentage = interestPercentage;
+    this.imgUrl = imgUrl;
+    this.amountOfCrew = amountOfCrew;
+  }
+  createCharactorDiv() {
+    let container = document.createElement("div");
+    container.innerHTML = ` 
+          <div class="col-12  d-flex charactor ">
+              <img src="${this.imgUrl}" class="charactor-image col-4" />
+              <div class="text-right col-8">
+                <div>${this.name}</div>
+                <div>bounty: $${this.bounty}</div>
+                <div>interest: ${this.interestPercentage}%</div>
+                <div>amountOfCrew: ${this.amountOfCrew}</div>
+          </div>
+    `;
+
+    return container;
+  }
+}
+
+const config = {
+  loginPage: document.getElementById("loginPage"),
+  mainPage: document.getElementById("mainPage"),
+  charctorsInfoPage: document.getElementById("charctorsInfoPage"),
+};
+
+const charactors = [
+  new Charactor("lufy", 999999999, 20, "./images/luffy.png", 0),
+  new Charactor("bruck", 11111111, 5, "./images/bruck.png", 0),
+  new Charactor("chopper", 1000, 30, "./images/chopper.png", 0),
+  new Charactor("frankey", 777777777, 7, "./images/frankey.png", 0),
+  new Charactor("jinbee", 1010101010, 10, "./images/jinbee.png", 0),
+  new Charactor("nami", 73737373, 37, "./images/nami.png", 0),
+  new Charactor("robin", 252525, 25, "./images/robin.png", 0),
+  new Charactor("sanji", 333333, 33, "./images/sanji.png", 0),
+  new Charactor("zoro", 66666666, 36, "./images/zoro.png", 0),
+];
+class View {
   static updateUserInfoInMainPageInterval;
   static addSaveBtnFunc(user) {
     let saveBtn = document.querySelectorAll(".save-btn")[0];
