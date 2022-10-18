@@ -320,8 +320,15 @@ class View {
       .querySelectorAll(".inputPassword")
       .item(0).value;
 
-    console.log(inputUsername);
-    console.log(inputPassword);
+    if (inputUsername == "" || inputPassword == "") {
+      alert("fill out all boxes");
+      return;
+    }
+
+    if (JSON.parse(localStorage.getItem(inputUsername)) == undefined) {
+      alert("username or password is wrong ");
+      return;
+    }
 
     let username = JSON.parse(localStorage.getItem(inputUsername))["name"];
     let userPassword = JSON.parse(localStorage.getItem(inputUsername))[
