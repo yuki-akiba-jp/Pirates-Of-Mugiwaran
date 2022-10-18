@@ -1,0 +1,40 @@
+body {
+  font-family: "Gill Sans";
+}
+div {
+  font-family: "Gill Sans";
+}
+
+.bg-black {
+  background-color: black;
+}
+.bg-gray {
+  background-color: gray;
+}
+.bg-lightgreen {
+  background-color: lightgreen;
+}
+.bg-lightblue {
+  background-color: lightblue;
+}
+.charactor-image {
+  height: 100;
+  width: 100px;
+}
+.charactors {
+  overflow-y: scroll;
+  height: 100%;
+}
+.charactor {
+  background-color: lightblue;
+  outline: solid coral;
+  cursor: pointer;
+}
+.treasure_box {
+  height: 300px;
+  width: 300px;
+  cursor: pointer;
+}
+.font13 {
+  font-size: 1.3rem;
+}
