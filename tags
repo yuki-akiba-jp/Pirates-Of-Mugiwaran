@@ -28,9 +28,13 @@ $1000	index.html	/^          <h2>$1000<\/h2>$/;"	i
 .treasure_box	style.css	/^.treasure_box {$/;"	c
 AnonymousClass742e32510101	product.js	/^export class  {$/;"	c
 BankAccount	main.js	/^class BankAccount {$/;"	c
+Charactor	charactor.js	/^class Charactor {$/;"	c
 Charactor	charactor.js	/^export class Charactor {$/;"	c
+Charactor	config.js	/^class Charactor {$/;"	c
 Charactor	js/charactor.js	/^export class Charactor {$/;"	c
 Charactor	startApp.js	/^class Charactor {$/;"	c
+Charactor	user.js	/^class Charactor {$/;"	c
+Charactor	view.js	/^class Charactor {$/;"	c
 Clicker-Empire-Game	README.md	/^# Clicker-Empire-Game$/;"	c
 Controller	main.js	/^class Controller {$/;"	c
 Data	main.js	/^class Data {$/;"	c
@@ -43,25 +47,37 @@ Total Balance	index.html	/^          <h1>Total Balance<\/h1>$/;"	h
 Total Balance	index.html	/^          <h2>Total Balance<\/h2>$/;"	i
 User	User.js	/^export class User {$/;"	c
 User	User.js	/^export default class User {$/;"	c
+User	charactor.js	/^class User {$/;"	c
+User	config.js	/^class User {$/;"	c
 User	js/User.js	/^export class User {$/;"	c
 User	js/user.js	/^export class User {$/;"	c
 User	main.js	/^class User {$/;"	c
 User	startApp.js	/^class User {$/;"	c
 User	user.js	/^class User {$/;"	c
 User	user.js	/^export class User {$/;"	c
+User	view.js	/^class User {$/;"	c
+View	charactor.js	/^class View {$/;"	c
+View	config.js	/^class View {$/;"	c
 View	js/view.js	/^export class View {$/;"	c
 View	startApp.js	/^class View {$/;"	c
+View	user.js	/^class View {$/;"	c
 View	view.js	/^class View {$/;"	c
 View	view.js	/^export class View {$/;"	c
 a	User.js	/^export default function a() {$/;"	f
 a	User.js	/^export function a() {$/;"	f
 a	User.js	/^function a() {$/;"	f
+addSaveBtnFunc	charactor.js	/^  static addSaveBtnFunc(user) {$/;"	m	class:View
+addSaveBtnFunc	config.js	/^  static addSaveBtnFunc(user) {$/;"	m	class:View
 addSaveBtnFunc	js/view.js	/^  static addSaveBtnFunc(user) {$/;"	m	class:View
 addSaveBtnFunc	startApp.js	/^  static addSaveBtnFunc(user) {$/;"	m	class:View
+addSaveBtnFunc	user.js	/^  static addSaveBtnFunc(user) {$/;"	m	class:View
 addSaveBtnFunc	view.js	/^  static addSaveBtnFunc() {$/;"	m	class:View
 addSaveBtnFunc	view.js	/^  static addSaveBtnFunc(user) {$/;"	m	class:View
+addSignOutBtnFunc	charactor.js	/^  static addSignOutBtnFunc(user) {$/;"	m	class:View
+addSignOutBtnFunc	config.js	/^  static addSignOutBtnFunc(user) {$/;"	m	class:View
 addSignOutBtnFunc	js/view.js	/^  static addSignOutBtnFunc(user) {$/;"	m	class:View
 addSignOutBtnFunc	startApp.js	/^  static addSignOutBtnFunc(user) {$/;"	m	class:View
+addSignOutBtnFunc	user.js	/^  static addSignOutBtnFunc(user) {$/;"	m	class:View
 addSignOutBtnFunc	view.js	/^  static addSignOutBtnFunc(user) {$/;"	m	class:View
 annualInterestRate	main.js	/^  annualInterestRate = 0.08;$/;"	M	class:BankAccount
 anonymousFunction7b6b062b0100	view.js	/^    loginBtn.addEventListener("click", function () {$/;"	f
@@ -105,6 +121,8 @@ body	style.css	/^body {$/;"	s
 body div	style.css	/^body div {$/;"	s
 burgersAddCount	main.js	/^  burgersAddCount() {$/;"	m	class:User
 calculateWithdrawAmount	main.js	/^  calculateWithdrawAmount(amount) {$/;"	m	class:BankAccount
+charactors	charactor.js	/^const charactors = [$/;"	v
+charactors	config.js	/^const charactors = [$/;"	v
 charactors	config.js	/^export const charactors = [$/;"	v
 charactors	config.js	/^export const charactors = {$/;"	C
 charactors	config.js	/^export const charactors = {$/;"	v
@@ -112,23 +130,34 @@ charactors	config.js	/^export const charactors={$/;"	C
 charactors	js/config.js	/^export const charactors = [$/;"	v
 charactors	startApp.js	/^const charactors = [$/;"	v
 charactors	user.js	/^    this.charactors = [$/;"	p	method:User.constructor
+charactors	user.js	/^const charactors = [$/;"	v
+charactors	view.js	/^const charactors = [$/;"	v
 charactorsPage	config.js	/^  charactorsPage: document.getElementById("charactorsPage"),$/;"	p	variable:config
 charactorsPage	index.html	/^  <div id="charactorsPage"><\/div>$/;"	I
+charctorsInfoPage	charactor.js	/^  charctorsInfoPage: document.getElementById("charctorsInfoPage"),$/;"	p	variable:config
 charctorsInfoPage	config.js	/^  charctorsInfoPage: document.getElementById("charctorsInfoPage"),$/;"	p	variable:config
 charctorsInfoPage	index.html	/^    <div id="charctorsInfoPage"><\/div>$/;"	I
 charctorsInfoPage	index.html	/^  <div id="charctorsInfoPage"><\/div>$/;"	I
 charctorsInfoPage	js/config.js	/^  charctorsInfoPage: document.getElementById("charctorsInfoPage"),$/;"	p	variable:config
 charctorsInfoPage	startApp.js	/^  charctorsInfoPage: document.getElementById("charctorsInfoPage"),$/;"	p	variable:config
+charctorsInfoPage	user.js	/^  charctorsInfoPage: document.getElementById("charctorsInfoPage"),$/;"	p	variable:config
+charctorsInfoPage	view.js	/^  charctorsInfoPage: document.getElementById("charctorsInfoPage"),$/;"	p	variable:config
+claerUpdateUserInfoInMainPage	charactor.js	/^  static claerUpdateUserInfoInMainPage() {$/;"	m	class:View
+claerUpdateUserInfoInMainPage	config.js	/^  static claerUpdateUserInfoInMainPage() {$/;"	m	class:View
 claerUpdateUserInfoInMainPage	js/view.js	/^  static claerUpdateUserInfoInMainPage() {$/;"	m	class:View
 claerUpdateUserInfoInMainPage	startApp.js	/^  static claerUpdateUserInfoInMainPage() {$/;"	m	class:View
+claerUpdateUserInfoInMainPage	user.js	/^  static claerUpdateUserInfoInMainPage() {$/;"	m	class:View
 claerUpdateUserInfoInMainPage	view.js	/^  static claerUpdateUserInfoInMainPage() {$/;"	m	class:View
 clearCreateMainPagePerSec	view.js	/^  static clearCreateMainPagePerSec() {$/;"	m	class:View
 comeBackLaterPage	main.js	/^function comeBackLaterPage(bankAccount) {$/;"	f
+config	charactor.js	/^const config = {$/;"	v
 config	config.js	/^const config = {$/;"	v
 config	config.js	/^export const config = {$/;"	v
 config	js/config.js	/^export const config = {$/;"	v
 config	main.js	/^const config = {$/;"	v
 config	startApp.js	/^const config = {$/;"	v
+config	user.js	/^const config = {$/;"	v
+config	view.js	/^const config = {$/;"	v
 constructor	User.js	/^  constructor(name, initialMoney, money) {$/;"	m	class:User
 constructor	User.js	/^  constructor(name, password, balance, spendDays, bonusPerTime, charactors) {$/;"	m	class:User
 constructor	User.js	/^  constructor(username, initialMoney, money) {$/;"	m	class:User
@@ -136,6 +165,9 @@ constructor	charactor.js	/^  constructor(name, bounty, interest, imgUrl) {$/;"	m
 constructor	charactor.js	/^  constructor(name, bounty, interestPercentage, imgUrl) {$/;"	m	class:Charactor
 constructor	charactor.js	/^  constructor(name, bounty, interestPercentage, imgUrl, amountOfCrew) {$/;"	m	class:Charactor
 constructor	charactor.js	/^  constructor(name, bounty, profit, imgUrl) {$/;"	m	class:Charactor
+constructor	charactor.js	/^  constructor(name, password, balance, spendDays, bonusPerTime, charactors) {$/;"	m	class:User
+constructor	config.js	/^  constructor(name, bounty, interestPercentage, imgUrl, amountOfCrew) {$/;"	m	class:Charactor
+constructor	config.js	/^  constructor(name, password, balance, spendDays, bonusPerTime, charactors) {$/;"	m	class:User
 constructor	investmentProduct.js	/^  constructor(interest, price) {$/;"	m	class:investmentProduct
 constructor	investmentProduct.js	/^  constructor(name, interest, price) {$/;"	m	class:investmentProduct
 constructor	js/User.js	/^  constructor(name, password, balance, spendDays, bonusPerTime, charactors) {$/;"	m	class:User
@@ -148,6 +180,7 @@ constructor	product.js	/^  constructor(name, interest, price) {$/;"	m	class:inve
 constructor	product.js	/^  constructor(name, salary, price,imgUrl) {$/;"	m	class:AnonymousClass742e32510101
 constructor	startApp.js	/^  constructor(name, bounty, interestPercentage, imgUrl, amountOfCrew) {$/;"	m	class:Charactor
 constructor	startApp.js	/^  constructor(name, password, balance, spendDays, bonusPerTime, charactors) {$/;"	m	class:User
+constructor	user.js	/^  constructor(name, bounty, interestPercentage, imgUrl, amountOfCrew) {$/;"	m	class:Charactor
 constructor	user.js	/^  constructor(name, initialMoney, money) {$/;"	m	class:User
 constructor	user.js	/^  constructor(name, initialbalance) {$/;"	m	class:User
 constructor	user.js	/^  constructor(name, initialbalance, money) {$/;"	m	class:User
@@ -156,20 +189,31 @@ constructor	user.js	/^  constructor(name, password, balance, spendDays, bonusPer
 constructor	user.js	/^  constructor(name, password, balance, spendDays, bonusPerTime, charactors) {$/;"	m	class:User
 constructor	user.js	/^  constructor(name, password, initialbalance) {$/;"	m	class:User
 constructor	user.js	/^  constructor(name, password, initialbalance, spendDays) {$/;"	m	class:User
+constructor	view.js	/^  constructor(name, bounty, interestPercentage, imgUrl, amountOfCrew) {$/;"	m	class:Charactor
 constructor	view.js	/^  constructor(name, interest, price) {$/;"	m	class:investmentProduct
+constructor	view.js	/^  constructor(name, password, balance, spendDays, bonusPerTime, charactors) {$/;"	m	class:User
 createBackNextBtn	main.js	/^  static createBackNextBtn(back, next) {$/;"	m	class:Pages
 createBackground	main.js	/^  static createBackground() {$/;"	m	class:Pages
+createBasePage	charactor.js	/^  static createBasePage(user) {$/;"	m	class:View
+createBasePage	config.js	/^  static createBasePage(user) {$/;"	m	class:View
 createBasePage	js/view.js	/^  static createBasePage(user) {$/;"	m	class:View
 createBasePage	startApp.js	/^  static createBasePage(user) {$/;"	m	class:View
+createBasePage	user.js	/^  static createBasePage(user) {$/;"	m	class:View
 createBasePage	view.js	/^  static createBasePage(user) {$/;"	m	class:View
 createCharactorDiv	charactor.js	/^  createCharactorDiv() {$/;"	m	class:Charactor
 createCharactorDiv	charactor.js	/^  createCharactorDiv() {}$/;"	m	class:Charactor
+createCharactorDiv	config.js	/^  createCharactorDiv() {$/;"	m	class:Charactor
 createCharactorDiv	js/charactor.js	/^  createCharactorDiv() {$/;"	m	class:Charactor
 createCharactorDiv	startApp.js	/^  createCharactorDiv() {$/;"	m	class:Charactor
+createCharactorDiv	user.js	/^  createCharactorDiv() {$/;"	m	class:Charactor
+createCharactorDiv	view.js	/^  createCharactorDiv() {$/;"	m	class:Charactor
 createCharactorsPage	view.js	/^  static createCharactorsPage() {$/;"	m	class:View
 createCharactorsPage	view.js	/^  static createCharactorsPage() {}$/;"	m	class:View
+createCharctorsInfoPage	charactor.js	/^  static createCharctorsInfoPage(charactor, user) {$/;"	m	class:View
+createCharctorsInfoPage	config.js	/^  static createCharctorsInfoPage(charactor, user) {$/;"	m	class:View
 createCharctorsInfoPage	js/view.js	/^  static createCharctorsInfoPage(charactor, user) {$/;"	m	class:View
 createCharctorsInfoPage	startApp.js	/^  static createCharctorsInfoPage(charactor, user) {$/;"	m	class:View
+createCharctorsInfoPage	user.js	/^  static createCharctorsInfoPage(charactor, user) {$/;"	m	class:View
 createCharctorsInfoPage	view.js	/^  static createCharctorsInfoPage() {$/;"	m	class:View
 createCharctorsInfoPage	view.js	/^  static createCharctorsInfoPage() {}$/;"	m	class:View
 createCharctorsInfoPage	view.js	/^  static createCharctorsInfoPage(charactor) {$/;"	m	class:View
@@ -179,12 +223,18 @@ createItemList	main.js	/^  static createItemList(userData) {$/;"	m	class:Pages
 createItemPage	main.js	/^  static createItemPage(user, index) {$/;"	m	class:Pages
 createLoginErorrVer	main.js	/^  static createLoginErorrVer() {$/;"	m	class:Pages
 createLoginOrNew	main.js	/^  static createLoginOrNew() {$/;"	m	class:Pages
+createLoginPage	charactor.js	/^  static createLoginPage() {$/;"	m	class:View
+createLoginPage	config.js	/^  static createLoginPage() {$/;"	m	class:View
 createLoginPage	js/view.js	/^  static createLoginPage() {$/;"	m	class:View
 createLoginPage	startApp.js	/^  static createLoginPage() {$/;"	m	class:View
+createLoginPage	user.js	/^  static createLoginPage() {$/;"	m	class:View
 createLoginPage	view.js	/^  static createLoginPage() {$/;"	m	class:View
 createMainGamePage	main.js	/^  static createMainGamePage(userData) {$/;"	m	class:Pages
+createMainPage	charactor.js	/^  static createMainPage(user) {$/;"	m	class:View
+createMainPage	config.js	/^  static createMainPage(user) {$/;"	m	class:View
 createMainPage	js/view.js	/^  static createMainPage(user) {$/;"	m	class:View
 createMainPage	startApp.js	/^  static createMainPage(user) {$/;"	m	class:View
+createMainPage	user.js	/^  static createMainPage(user) {$/;"	m	class:View
 createMainPage	view.js	/^  static createMainPage() {$/;"	m	class:View
 createMainPage	view.js	/^  static createMainPage() {}$/;"	m	class:View
 createMainPage	view.js	/^  static createMainPage(user) {$/;"	m	class:View
@@ -233,28 +283,43 @@ getMoney	main.js	/^  getMoney() {$/;"	m	class:User
 getMoney	user.js	/^  getMoney() {$/;"	m	class:User
 getOld	main.js	/^  getOld() {$/;"	m	class:User
 getRandomInteger	main.js	/^function getRandomInteger(min, max) {$/;"	f
+hideAllPage	charactor.js	/^  static hideAllPage() {$/;"	m	class:View
+hideAllPage	config.js	/^  static hideAllPage() {$/;"	m	class:View
 hideAllPage	js/view.js	/^  static hideAllPage() {$/;"	m	class:View
 hideAllPage	startApp.js	/^  static hideAllPage() {$/;"	m	class:View
+hideAllPage	user.js	/^  static hideAllPage() {$/;"	m	class:View
 hideAllPage	view.js	/^  static hideAllPage() {$/;"	m	class:View
 hidePage	view.js	/^  static hidePage(page) {$/;"	m	class:View
 increaseBalanceByClick	User.js	/^  increaseBalanceByClick() {$/;"	m	class:User
+increaseBalanceByClick	charactor.js	/^  increaseBalanceByClick() {$/;"	m	class:User
+increaseBalanceByClick	config.js	/^  increaseBalanceByClick() {$/;"	m	class:User
 increaseBalanceByClick	js/User.js	/^  increaseBalanceByClick() {$/;"	m	class:User
 increaseBalanceByClick	js/user.js	/^  increaseBalanceByClick() {$/;"	m	class:User
 increaseBalanceByClick	startApp.js	/^  increaseBalanceByClick() {$/;"	m	class:User
 increaseBalanceByClick	user.js	/^  increaseBalanceByClick() {$/;"	m	class:User
+increaseBalanceByClick	view.js	/^  increaseBalanceByClick() {$/;"	m	class:User
 increaseBalancePerSec	user.js	/^  increaseBalancePerSec() {$/;"	m	class:User
 increaseBalancePerTime	User.js	/^  increaseBalancePerTime() {$/;"	m	class:User
+increaseBalancePerTime	charactor.js	/^  increaseBalancePerTime() {$/;"	m	class:User
+increaseBalancePerTime	config.js	/^  increaseBalancePerTime() {$/;"	m	class:User
 increaseBalancePerTime	js/User.js	/^  increaseBalancePerTime() {$/;"	m	class:User
 increaseBalancePerTime	js/user.js	/^  increaseBalancePerTime() {$/;"	m	class:User
 increaseBalancePerTime	startApp.js	/^  increaseBalancePerTime() {$/;"	m	class:User
 increaseBalancePerTime	user.js	/^  increaseBalancePerTime() {$/;"	m	class:User
+increaseBalancePerTime	view.js	/^  increaseBalancePerTime() {$/;"	m	class:User
 increaseSpendDaysPerTime	User.js	/^  increaseSpendDaysPerTime() {$/;"	m	class:User
+increaseSpendDaysPerTime	charactor.js	/^  increaseSpendDaysPerTime() {$/;"	m	class:User
+increaseSpendDaysPerTime	config.js	/^  increaseSpendDaysPerTime() {$/;"	m	class:User
 increaseSpendDaysPerTime	js/User.js	/^  increaseSpendDaysPerTime() {$/;"	m	class:User
 increaseSpendDaysPerTime	js/user.js	/^  increaseSpendDaysPerTime() {$/;"	m	class:User
 increaseSpendDaysPerTime	startApp.js	/^  increaseSpendDaysPerTime() {$/;"	m	class:User
 increaseSpendDaysPerTime	user.js	/^  increaseSpendDaysPerTime() {$/;"	m	class:User
+increaseSpendDaysPerTime	view.js	/^  increaseSpendDaysPerTime() {$/;"	m	class:User
+initGame	charactor.js	/^  static initGame() {$/;"	m	class:View
+initGame	config.js	/^  static initGame() {$/;"	m	class:View
 initGame	js/view.js	/^  static initGame() {$/;"	m	class:View
 initGame	startApp.js	/^  static initGame() {$/;"	m	class:View
+initGame	user.js	/^  static initGame() {$/;"	m	class:View
 initGame	view.js	/^  static initGame() {$/;"	m	class:View
 initGame	view.js	/^  static initGame() {}$/;"	m	class:View
 initial-page	index.html	/^    <div id="initial-page"><\/div>$/;"	I
@@ -277,6 +342,7 @@ jsonString	js/localstrage.js	/^const jsonString = `[{"age":4,"money":40,"time":3
 jsonString	localstrage.js	/^const jsonString = `[{"age":4,"money":40,"time":344,"purchases":["card","pizza","burger"]}]`;$/;"	C
 jsonString	main.js	/^const jsonString = `[{"age":4,"money":40,"time":344,"purchases":["card","pizza","burger"]}]`;$/;"	C
 loginError	main.js	/^  static loginError() {$/;"	m	class:Controller
+loginPage	charactor.js	/^  loginPage: document.getElementById("loginPage"),$/;"	p	variable:config
 loginPage	config.js	/^  loginPage: document.getElementById("loginPage"),$/;"	p	variable:config
 loginPage	index.html	/^    <div id="loginPage"><\/div>$/;"	I
 loginPage	index.html	/^  <div id="loginPage">$/;"	I
@@ -285,11 +351,16 @@ loginPage	js/config.js	/^  loginPage: document.getElementById("loginPage"),$/;"	
 loginPage	main.js	/^  loginPage: document.getElementById("loginPage")$/;"	p	variable:config
 loginPage	main.js	/^  loginPage: document.getElementById("loginPage"),$/;"	p	variable:config
 loginPage	startApp.js	/^  loginPage: document.getElementById("loginPage"),$/;"	p	variable:config
+loginPage	user.js	/^  loginPage: document.getElementById("loginPage"),$/;"	p	variable:config
+loginPage	view.js	/^  loginPage: document.getElementById("loginPage"),$/;"	p	variable:config
+loginUser	charactor.js	/^  static loginUser() {$/;"	m	class:View
+loginUser	config.js	/^  static loginUser() {$/;"	m	class:View
 loginUser	js/view.js	/^  static loginUser() {$/;"	m	class:View
 loginUser	startApp.js	/^  static loginUser() {$/;"	m	class:View
 loginUser	user.js	/^  loginUser() {$/;"	m	class:User
 loginUser	user.js	/^  loginUser(username, userPassword) {$/;"	m	class:User
 loginUser	user.js	/^  static loginUser() {$/;"	m	class:User
+loginUser	user.js	/^  static loginUser() {$/;"	m	class:View
 loginUser	user.js	/^  static loginUser(username, userPassword) {$/;"	m	class:User
 loginUser	view.js	/^  static loginUser() {$/;"	m	class:View
 loginUser	view.js	/^  static loginUser(username, userPassword) {$/;"	m	class:View
@@ -297,6 +368,7 @@ loginUserByName	view.js	/^  static loginUserByName(username, userPassword) {$/;"
 lufy	config.js	/^  lufy: new Charactor("lufy", 100000, 10, ".\/images\/luffy.png"),$/;"	p	variable:charactors
 main-page	index.html	/^    <div id="main-page"><\/div>$/;"	I
 mainBankPage	main.js	/^function mainBankPage(bankAccount) {$/;"	f
+mainPage	charactor.js	/^  mainPage: document.getElementById("mainPage"),$/;"	p	variable:config
 mainPage	config.js	/^  mainPage: document.getElementById("loginPage"),$/;"	p	variable:config
 mainPage	config.js	/^  mainPage: document.getElementById("mainPage"),$/;"	p	variable:config
 mainPage	index.html	/^    <div id="mainPage">$/;"	I
@@ -310,6 +382,8 @@ mainPage	js/config.js	/^  mainPage: document.getElementById("mainPage"),$/;"	p	v
 mainPage	main.js	/^  mainPage: document.getElementById("loginPage"),$/;"	p	variable:config
 mainPage	main.js	/^  mainPage: document.getElementById("main-page"),$/;"	p	variable:config
 mainPage	startApp.js	/^  mainPage: document.getElementById("mainPage"),$/;"	p	variable:config
+mainPage	user.js	/^  mainPage: document.getElementById("mainPage"),$/;"	p	variable:config
+mainPage	view.js	/^  mainPage: document.getElementById("mainPage"),$/;"	p	variable:config
 mainPageHeader	config.js	/^  mainPageHeader: document.getElementById("mainPageHeader"),$/;"	p	variable:config
 mainPageHeader	index.html	/^    <div id="mainPageHeader"><\/div>$/;"	I
 maxWithdrawPercent	main.js	/^  maxWithdrawPercent = 0.2;$/;"	M	class:BankAccount
@@ -332,10 +406,13 @@ productPage	main.js	/^  productPage: document.getElementById("loginPage")$/;"	p	
 productPage	main.js	/^  productPage: document.getElementById("loginPage"),$/;"	p	variable:config
 products	config.js	/^export const products={$/;"	C
 purchasedItem	main.js	/^  purchasedItem(quantity, index) {$/;"	m	class:User
+registerUser	charactor.js	/^  static registerUser() {$/;"	m	class:View
+registerUser	config.js	/^  static registerUser() {$/;"	m	class:View
 registerUser	js/view.js	/^  static registerUser() {$/;"	m	class:View
 registerUser	startApp.js	/^  static registerUser() {$/;"	m	class:View
 registerUser	user.js	/^  registerUser() {$/;"	m	class:User
 registerUser	user.js	/^  registerUser(username, userPassword) {$/;"	m	class:User
+registerUser	user.js	/^  static registerUser() {$/;"	m	class:View
 registerUser	user.js	/^  static registerUser(username, userPassword) {$/;"	m	class:User
 registerUser	view.js	/^  static registerUser() {$/;"	m	class:View
 registerUser	view.js	/^  static registerUser(){$/;"	m	class:View
@@ -350,14 +427,23 @@ subPage	main.js	/^  subPage: document.getElementById("sub-page"),$/;"	p	variable
 timer	main.js	/^    let timer = () => {$/;"	f	method:Pages.createMainGamePage
 typeString	main.js	/^  static typeString(itemList) {$/;"	m	class:Data
 updateUserInfoInMainPage	view.js	/^  static updateUserInfoInMainPage(user) {$/;"	m	class:View
+updateUserInfoInMainPageHelper	charactor.js	/^  static updateUserInfoInMainPageHelper(user) {$/;"	m	class:View
+updateUserInfoInMainPageHelper	config.js	/^  static updateUserInfoInMainPageHelper(user) {$/;"	m	class:View
 updateUserInfoInMainPageHelper	js/view.js	/^  static updateUserInfoInMainPageHelper(user) {$/;"	m	class:View
 updateUserInfoInMainPageHelper	startApp.js	/^  static updateUserInfoInMainPageHelper(user) {$/;"	m	class:View
+updateUserInfoInMainPageHelper	user.js	/^  static updateUserInfoInMainPageHelper(user) {$/;"	m	class:View
 updateUserInfoInMainPageHelper	view.js	/^  static updateUserInfoInMainPageHelper(user) {$/;"	m	class:View
+updateUserInfoInMainPageInterval	charactor.js	/^  static updateUserInfoInMainPageInterval;$/;"	M	class:View
+updateUserInfoInMainPageInterval	config.js	/^  static updateUserInfoInMainPageInterval;$/;"	M	class:View
 updateUserInfoInMainPageInterval	js/view.js	/^  static updateUserInfoInMainPageInterval;$/;"	M	class:View
 updateUserInfoInMainPageInterval	startApp.js	/^  static updateUserInfoInMainPageInterval;$/;"	M	class:View
+updateUserInfoInMainPageInterval	user.js	/^  static updateUserInfoInMainPageInterval;$/;"	M	class:View
 updateUserInfoInMainPageInterval	view.js	/^  static updateUserInfoInMainPageInterval;$/;"	M	class:View
+updateUserInfoInMainPagePerSec	charactor.js	/^  static updateUserInfoInMainPagePerSec(user) {$/;"	m	class:View
+updateUserInfoInMainPagePerSec	config.js	/^  static updateUserInfoInMainPagePerSec(user) {$/;"	m	class:View
 updateUserInfoInMainPagePerSec	js/view.js	/^  static updateUserInfoInMainPagePerSec(user) {$/;"	m	class:View
 updateUserInfoInMainPagePerSec	startApp.js	/^  static updateUserInfoInMainPagePerSec(user) {$/;"	m	class:View
+updateUserInfoInMainPagePerSec	user.js	/^  static updateUserInfoInMainPagePerSec(user) {$/;"	m	class:View
 updateUserInfoInMainPagePerSec	view.js	/^  static updateUserInfoInMainPagePerSec(user) {$/;"	m	class:View
 user	main.js	/^let user = User("name", 0, 10);$/;"	v
 user	main.js	/^let user = new User("name", 0, 10);$/;"	v
