@@ -1,4 +1,4 @@
-# Clicker-Empire-Game
+# Pirates-Of-Mugiwaran
 
 ## **how to play this game**
 
@@ -7,4 +7,4 @@ you can take in crews from Pirates of Mugiwara.
 
 ## **URL**
 
-https://yuki-akiba-jp.github.io/Cliicker-Empire-Game/
+https://yuki-akiba-jp.github.io/Pirates-Of-Mugiwaran/
