@@ -73,6 +73,7 @@ addSaveBtnFunc	startApp.js	/^  static addSaveBtnFunc(user) {$/;"	m	class:View
 addSaveBtnFunc	user.js	/^  static addSaveBtnFunc(user) {$/;"	m	class:View
 addSaveBtnFunc	view.js	/^  static addSaveBtnFunc() {$/;"	m	class:View
 addSaveBtnFunc	view.js	/^  static addSaveBtnFunc(user) {$/;"	m	class:View
+addSignOutBtnEventListner	view.js	/^  static addSignOutBtnEventListner() {$/;"	m	class:View
 addSignOutBtnFunc	charactor.js	/^  static addSignOutBtnFunc(user) {$/;"	m	class:View
 addSignOutBtnFunc	config.js	/^  static addSignOutBtnFunc(user) {$/;"	m	class:View
 addSignOutBtnFunc	js/view.js	/^  static addSignOutBtnFunc(user) {$/;"	m	class:View
@@ -462,3 +463,49 @@ username	index.html	/^          <h3>username<\/h3>$/;"	j
 username	index.html	/^          <input type="text" class="form-control" id="username" \/>$/;"	I
 withdraw	main.js	/^  withdraw(amount) {$/;"	m	class:BankAccount
 withdrawPage	main.js	/^function withdrawPage(bankAccount) {$/;"	f
+empire game	index.html	/^    <title>empire game<\/title>$/;"	j
+loginPage	index.html	/^    <div id="loginPage"><\/div>$/;"	I
+mainPage	index.html	/^    <div id="mainPage"><\/div>$/;"	I
+charctorsInfoPage	index.html	/^    <div id="charctorsInfoPage"><\/div>$/;"	I
+Charactor	charactor.js	/^class Charactor {$/;"	c
+constructor	charactor.js	/^  constructor(name, bounty, interestPercentage, imgUrl, amountOfCrew) {$/;"	m	class:Charactor
+createCharactorDiv	charactor.js	/^  createCharactorDiv() {$/;"	m	class:Charactor
+User	user.js	/^class User {$/;"	c
+constructor	user.js	/^  constructor(name, password, balance, spendDays, bonusPerTime, charactors) {$/;"	m	class:User
+increaseBalanceByClick	user.js	/^  increaseBalanceByClick() {$/;"	m	class:User
+increaseBalancePerTime	user.js	/^  increaseBalancePerTime() {$/;"	m	class:User
+increaseSpendDaysPerTime	user.js	/^  increaseSpendDaysPerTime() {$/;"	m	class:User
+loginPage	config.js	/^  loginPage: document.getElementById("loginPage"),$/;"	p	variable:config
+mainPage	config.js	/^  mainPage: document.getElementById("mainPage"),$/;"	p	variable:config
+charctorsInfoPage	config.js	/^  charctorsInfoPage: document.getElementById("charctorsInfoPage"),$/;"	p	variable:config
+config	config.js	/^const config = {$/;"	v
+charactors	config.js	/^const charactors = [$/;"	v
+Clicker-Empire-Game	README.md	/^# Clicker-Empire-Game$/;"	c
+**how to play this game**	README.md	/^## **how to play this game**$/;"	s	chapter:Clicker-Empire-Game
+**URL**	README.md	/^## **URL**$/;"	s	chapter:Clicker-Empire-Game
+body	style.css	/^body {$/;"	s
+div	style.css	/^div {$/;"	s
+.bg-black	style.css	/^.bg-black {$/;"	c
+.bg-gray	style.css	/^.bg-gray {$/;"	c
+.bg-lightgreen	style.css	/^.bg-lightgreen {$/;"	c
+.bg-lightblue	style.css	/^.bg-lightblue {$/;"	c
+.charactor-image	style.css	/^.charactor-image {$/;"	c
+.charactors	style.css	/^.charactors {$/;"	c
+.charactor	style.css	/^.charactor {$/;"	c
+.treasure_box	style.css	/^.treasure_box {$/;"	c
+.font13	style.css	/^.font13 {$/;"	c
+View	view.js	/^class View {$/;"	c
+updateUserInfoInMainPageInterval	view.js	/^  static updateUserInfoInMainPageInterval;$/;"	M	class:View
+addSaveBtnFunc	view.js	/^  static addSaveBtnFunc(user) {$/;"	m	class:View
+addSignOutBtnEventListner	view.js	/^  static addSignOutBtnEventListner() {$/;"	m	class:View
+updateUserInfoInMainPagePerSec	view.js	/^  static updateUserInfoInMainPagePerSec(user) {$/;"	m	class:View
+claerUpdateUserInfoInMainPage	view.js	/^  static claerUpdateUserInfoInMainPage() {$/;"	m	class:View
+createLoginPage	view.js	/^  static createLoginPage() {$/;"	m	class:View
+hideAllPage	view.js	/^  static hideAllPage() {$/;"	m	class:View
+updateUserInfoInMainPageHelper	view.js	/^  static updateUserInfoInMainPageHelper(user) {$/;"	m	class:View
+createBasePage	view.js	/^  static createBasePage(user) {$/;"	m	class:View
+createMainPage	view.js	/^  static createMainPage(user) {$/;"	m	class:View
+createCharctorsInfoPage	view.js	/^  static createCharctorsInfoPage(charactor, user) {$/;"	m	class:View
+registerUser	view.js	/^  static registerUser() {$/;"	m	class:View
+loginUser	view.js	/^  static loginUser() {$/;"	m	class:View
+initGame	view.js	/^  static initGame() {$/;"	m	class:View

@@ -7,7 +7,7 @@ class View {
       alert("your data is saved");
     });
   }
-  static addSignOutBtnFunc(user) {
+  static addSignOutBtnEventListner() {
     let signOut = document.querySelectorAll(".signout-btn")[0];
     signOut.addEventListener("click", () => {
       let isConfirmed = confirm(
@@ -144,7 +144,7 @@ class View {
       user.increaseBalanceByClick();
     });
     this.addSaveBtnFunc(user);
-    this.addSignOutBtnFunc(user);
+    this.addSignOutBtnEventListner();
     this.updateUserInfoInMainPagePerSec(user);
   }
 
@@ -212,7 +212,7 @@ class View {
       }
     });
     this.addSaveBtnFunc(user);
-    this.addSignOutBtnFunc(user);
+    this.addSignOutBtnEventListner();
 
     let backToMainPageBtn = document.querySelectorAll(".backToMainPageBtn")[0];
     backToMainPageBtn.addEventListener("click", () => {
