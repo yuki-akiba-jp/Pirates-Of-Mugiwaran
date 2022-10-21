@@ -42,6 +42,7 @@ Document	index.html	/^    <title>Document<\/title>$/;"	j
 Item	main.js	/^class Item {$/;"	c
 ItemEffects	main.js	/^  ItemEffects(user, item, quantity, index) {$/;"	m	class:User
 Pages	main.js	/^class Pages {$/;"	c
+Pirates of Mugiwaran	index.html	/^    <title>Pirates of Mugiwaran <\/title>$/;"	j
 Total Balance	index.html	/^            <h1>Total Balance<\/h1>$/;"	h
 Total Balance	index.html	/^          <h1>Total Balance<\/h1>$/;"	h
 Total Balance	index.html	/^          <h2>Total Balance<\/h2>$/;"	i
@@ -463,7 +464,7 @@ username	index.html	/^          <h3>username<\/h3>$/;"	j
 username	index.html	/^          <input type="text" class="form-control" id="username" \/>$/;"	I
 withdraw	main.js	/^  withdraw(amount) {$/;"	m	class:BankAccount
 withdrawPage	main.js	/^function withdrawPage(bankAccount) {$/;"	f
-empire game	index.html	/^    <title>empire game<\/title>$/;"	j
+Pirates of Mugiwaran	index.html	/^    <title>Pirates of Mugiwaran<\/title>$/;"	j
 loginPage	index.html	/^    <div id="loginPage"><\/div>$/;"	I
 mainPage	index.html	/^    <div id="mainPage"><\/div>$/;"	I
 charctorsInfoPage	index.html	/^    <div id="charctorsInfoPage"><\/div>$/;"	I
